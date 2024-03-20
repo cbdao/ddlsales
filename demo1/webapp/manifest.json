@@ -1,7 +1,7 @@
 {
   "_version": "1.59.0",
   "sap.app": {
-    "id": "ddlsales",
+    "id": "demo1",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -12,27 +12,27 @@
     "resources": "resources.json",
     "sourceTemplate": {
       "id": "@sap/generator-fiori:lrop",
-      "version": "1.12.5",
-      "toolsId": "43b0259b-0479-42af-9ac9-d488895addef"
+      "version": "1.13.0",
+      "toolsId": "bd81ec38-847b-44b7-92d2-741d0b585f91"
     },
     "dataSources": {
       "mainService": {
-        "uri": "/sap/opu/odata/sap/ZDEMO_DDL_SALES_CDS/",
+        "uri": "/sap/opu/odata/sap/C_SALESORDERQUERY_CDS/",
         "type": "OData",
         "settings": {
           "annotations": [
-            "ZDEMO_DDL_SALES_CDS_VAN",
+            "C_SALESORDERQUERY_CDS_VAN",
             "annotation"
           ],
           "localUri": "localService/metadata.xml",
           "odataVersion": "2.0"
         }
       },
-      "ZDEMO_DDL_SALES_CDS_VAN": {
-        "uri": "/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Annotations(TechnicalName='ZDEMO_DDL_SALES_CDS_VAN',Version='0001')/$value/",
+      "C_SALESORDERQUERY_CDS_VAN": {
+        "uri": "/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Annotations(TechnicalName='C_SALESORDERQUERY_CDS_VAN',Version='0001')/$value/",
         "type": "ODataAnnotation",
         "settings": {
-          "localUri": "localService/ZDEMO_DDL_SALES_CDS_VAN.xml"
+          "localUri": "localService/C_SALESORDERQUERY_CDS_VAN.xml"
         }
       },
       "annotation": {
@@ -40,19 +40,6 @@
         "uri": "annotations/annotation.xml",
         "settings": {
           "localUri": "annotations/annotation.xml"
-        }
-      }
-    },
-    "crossNavigation": {
-      "inbounds": {
-        "cdaoDdlSales-cdaoddlsales": {
-          "semanticObject": "cdaoDdlSales",
-          "action": "cdaoddlsales",
-          "title": "{{flpTitle}}",
-          "signature": {
-            "parameters": {},
-            "additionalParameters": "allowed"
-          }
         }
       }
     }
@@ -76,7 +63,7 @@
   "sap.ui5": {
     "flexEnabled": true,
     "dependencies": {
-      "minUI5Version": "1.121.1",
+      "minUI5Version": "1.121.2",
       "libs": {
         "sap.m": {},
         "sap.ui.core": {},
@@ -95,7 +82,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "ddlsales.i18n.i18n"
+          "bundleName": "demo1.i18n.i18n"
         }
       },
       "": {
@@ -133,8 +120,8 @@
       "showDraftToggle": false
     },
     "pages": {
-      "ListReport|ZDEMO_DDL_SALES": {
-        "entitySet": "ZDEMO_DDL_SALES",
+      "ListReport|P_DisplayCurrency": {
+        "entitySet": "P_DisplayCurrency",
         "component": {
           "name": "sap.suite.ui.generic.template.ListReport",
           "list": true,
@@ -150,8 +137,8 @@
           }
         },
         "pages": {
-          "ObjectPage|ZDEMO_DDL_SALES": {
-            "entitySet": "ZDEMO_DDL_SALES",
+          "ObjectPage|P_DisplayCurrency": {
+            "entitySet": "P_DisplayCurrency",
             "defaultLayoutTypeIfExternalNavigation": "MidColumnFullScreen",
             "component": {
               "name": "sap.suite.ui.generic.template.ObjectPage"
@@ -164,9 +151,5 @@
   "sap.fiori": {
     "registrationIds": [],
     "archeType": "transactional"
-  },
-  "sap.cloud": {
-    "public": true,
-    "service": "ddlsales"
   }
 }
