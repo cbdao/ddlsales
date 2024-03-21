@@ -13,7 +13,7 @@
     "sourceTemplate": {
       "id": "@sap/generator-fiori:lrop",
       "version": "1.13.0",
-      "toolsId": "3e42289c-38ab-46c3-bea7-dbbf3cf06be3"
+      "toolsId": "b639e75a-9dc3-4151-95b8-4cc37af43640"
     },
     "dataSources": {
       "mainService": {
@@ -63,7 +63,7 @@
   "sap.ui5": {
     "flexEnabled": true,
     "dependencies": {
-      "minUI5Version": "1.121.2",
+      "minUI5Version": "1.122.0",
       "libs": {
         "sap.m": {},
         "sap.ui.core": {},
@@ -120,8 +120,8 @@
       "showDraftToggle": false
     },
     "pages": {
-      "ListReport|ZDEMO_DDL_SALES": {
-        "entitySet": "ZDEMO_DDL_SALES",
+      "ListReport|I_MaterialStdVH": {
+        "entitySet": "I_MaterialStdVH",
         "component": {
           "name": "sap.suite.ui.generic.template.ListReport",
           "list": true,
@@ -137,8 +137,8 @@
           }
         },
         "pages": {
-          "ObjectPage|ZDEMO_DDL_SALES": {
-            "entitySet": "ZDEMO_DDL_SALES",
+          "ObjectPage|I_MaterialStdVH": {
+            "entitySet": "I_MaterialStdVH",
             "defaultLayoutTypeIfExternalNavigation": "MidColumnFullScreen",
             "component": {
               "name": "sap.suite.ui.generic.template.ObjectPage"

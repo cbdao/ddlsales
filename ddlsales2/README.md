@@ -1,22 +1,22 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Wed Mar 20 2024 15:51:31 GMT+0000 (Coordinated Universal Time)|
+|**Generation Date and Time**<br>Thu Mar 21 2024 18:12:46 GMT+0000 (Coordinated Universal Time)|
 |**App Generator**<br>@sap/generator-fiori-elements|
 |**App Generator Version**<br>1.13.0|
 |**Generation Platform**<br>SAP Business Application Studio|
 |**Template Used**<br>List Report Page V2|
 |**Service Type**<br>SAP System (ABAP On Premise)|
-|**Service URL**<br>http://vwsvtstsap13cloudside:50000//sap/opu/odata/sap/ZDEMO_DDL_SALES_CDS
+|**Service URL**<br>http://vwsvtstsap13cloudside:50000/sap/opu/odata/sap/ZDEMO_DDL_SALES_CDS
 |**Module Name**<br>ddlsales2|
 |**Application Title**<br>Sales Order List|
 |**Namespace**<br>|
 |**UI5 Theme**<br>sap_horizon|
-|**UI5 Version**<br>1.121.2|
+|**UI5 Version**<br>1.122.0|
 |**Enable Code Assist Libraries**<br>False|
 |**Enable TypeScript**<br>False|
 |**Add Eslint configuration**<br>False|
-|**Main Entity**<br>ZDEMO_DDL_SALES|
+|**Main Entity**<br>I_MaterialStdVH|
 
 ## ddlsales2
 

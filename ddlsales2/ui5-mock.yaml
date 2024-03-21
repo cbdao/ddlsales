@@ -17,7 +17,7 @@ server:
           url: https://ui5.sap.com
         backend:
           - path: /sap
-            url: http://vwsvtstsap13cloudside:50000/
+            url: http://vwsvtstsap13cloudside:50000
             client: '100'
             destination: S21-100
     - name: fiori-tools-appreload

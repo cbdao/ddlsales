@@ -6,7 +6,7 @@ metadata:
 type: application
 framework:
   name: SAPUI5
-  version: 1.121.2
+  version: 1.122.0
   libraries:
     - name: sap.m
     - name: sap.ui.core
@@ -30,7 +30,7 @@ server:
         ignoreCertError: false # If set to true, certificate errors will be ignored. E.g. self-signed certificates will be accepted
         backend:
           - path: /sap
-            url: http://vwsvtstsap13cloudside:50000/
+            url: http://vwsvtstsap13cloudside:50000
             client: '100'
             destination: S21-100
     - name: sap-fe-mockserver
