@@ -20,7 +20,7 @@
 
 ## ddlsales
 
-Sales Order List Application
+Sales Order List App
 
 ### Starting the generated app
 
